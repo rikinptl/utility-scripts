@@ -1,0 +1,24 @@
+{
+  "_comment": "Schema to pass validation check for sample data in 's3loader.py' "
+  "type": "object",
+    "properties": {
+      "user_id": {"type": "string", "format": "uuid"},
+      "First Name": {"type": "string"},
+      "Middle Name": {"type": "string"},
+      "Last Name": {"type": "string"},
+      "Personal Email Address": {"type": "string", "format": "email"},
+      "Marketing Email Address": {"type": "string", "format": "email"},
+      "Phone Number Personal": {"type": "string", "pattern": "^[0-9]{6,15}$"},
+      "Phone Number Marketing": {"type": "string", "pattern": "^[0-9]{6,15}$"},
+      "Address 1": {"type": "string"},
+      "Address 2": {"type": "string"},
+      "City": {"type": "string"},
+      "State": {"type": "string"},
+      "Zipcode": {"type": "integer", "minimum": 10000, "maximum": 999999},
+      "Current Passport Number": {"type": "string"},
+      "Old Passport Number": {"type": "string"}
+    },
+    "required": ["user_id", "First Name", "Last Name", "Personal Email Address", "Phone Number Personal", "City", "State"],
+    "additionalProperties": false
+  }
+  
