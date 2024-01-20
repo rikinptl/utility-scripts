@@ -20,6 +20,7 @@
 Ensure you have the required dependencies installed:
 
 ```bash
+cd s3loader
 pip install -r requirements.txt
 ```
 # Usage
