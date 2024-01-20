@@ -83,7 +83,7 @@ def main()-> None:
     client = S3Loader.connect_to_s3(r'C:\Users\Pjp\Downloads\rootkey.csv')
     data = {
   "user_id": "2b38a163-4b12-45e0-8ca9-eb53bc7d8e74",
-  "First Name": "Rikinhhhhnn",
+  "First Name": "John",
   "Middle Name": "Doe",
   "Last Name": "Smith",
   "Personal Email Address": "john.doe@example.com",
@@ -99,7 +99,7 @@ def main()-> None:
   "Old Passport Number": "XY987654"
 }
 
-    push_to_s3(client, data,userid = 'rikin', validate_data= True, config= r'schema.json')
+    push_to_s3(client, data,userid = 'rikin', validate_data= True, config= r'val_schema.json')
 
 if __name__ == '__main__':
     main()
