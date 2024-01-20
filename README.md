@@ -7,7 +7,7 @@
 
 # S3 Loader Utility
 
-🚀 Welcome to the `s3loader/` subfolder of the "utility-scripts" repository. This folder contains a Python utility script, `s3loader.py`, designed for uploading JSON data to an S3 bucket after validation against a specified schema.
+🚀 Welcome to the [`s3loader/`][https://github.com/rikinptl/utility-scripts/s3loader] subfolder of the "utility-scripts" repository. This folder contains a Python utility script, `s3loader.py`, designed for uploading JSON data to an S3 bucket after validation against a specified schema.
 
 ## Files
 
